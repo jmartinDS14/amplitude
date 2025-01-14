@@ -11,7 +11,7 @@ api_key=os.getenv('AMP_API_KEY')
 api_secret_key=os.getenv('AMP_SECRET_KEY')
 
 start_time='20250101T00'
-end_time='20250109T00'
+end_time='20250114T00'
 
 url='https://analytics.eu.amplitude.com/api/2/export'
 params = {
