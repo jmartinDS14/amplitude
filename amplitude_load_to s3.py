@@ -2,7 +2,6 @@ import zipfile  # For handling .zip files
 import gzip     # For handling .gz files
 import os       # For file/directory operations
 import shutil   # For file operations like copying
-from pathlib import Path  # For modern path handling
 import tempfile # For creating temporary directories
 import boto3 # For pushing to AWS S3 
 from dotenv import load_dotenv # For reading .env file
